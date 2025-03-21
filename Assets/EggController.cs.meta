@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 6a4531ddfe324804586eebcedb10eaff
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - eggBrokenPrefab: {fileID: 379004924488778591, guid: b04b0ff7b534052498eeabfcb97ad50d, type: 3}
+  - breakSound: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
