@@ -7,8 +7,13 @@ public class EggCatcher : MonoBehaviour
         if (other.CompareTag("Egg"))
         {
             Destroy(other.gameObject);
-            GameManager.instance.AddScore(1); // Sử dụng AddScore() để tăng điểm
-            Debug.Log("Bắt được trứng! Điểm: " + GameManager.instance.Score); // Gọi getter Score
+
+            GameManager.instance.AddScore(1); // Tăng điểm
+
+            // Tăng máu mỗi khi bắt được trứng
+            FindObjectOfType<HealthManager>().AddHealth(1);
+
+            Debug.Log("Bắt được trứng! Điểm: " + GameManager.instance.Score);
         }
     }
 }
